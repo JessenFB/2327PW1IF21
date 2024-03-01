@@ -1,0 +1,39 @@
+body {
+    background-color: #201658;
+}
+.col {
+    width: 25%;
+    background-color: yellow;
+    float: left;
+}
+.img-responsive {
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+
+.bg-primary{
+    background-color: #7F27FF;
+}
+.rounded{
+    border-radius: 20px;
+}
+.img-rounded{
+    border-radius: 50% 50% 50% 50%;
+}
+.fo{
+    float: left;
+    background-color: #59B4C3;
+    width: 33%;
+}
+.fa{
+    float: left;
+    background-color: #59B4C3;
+    width: 33%;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
