@@ -1,10 +1,55 @@
+ *{
+    box-sizing: border-box;
+ }
+
+/* / HP */
 body {
     background-color: #201658;
+    
 }
-.col {
-    width: 25%;
-    background-color: yellow;
-    float: left;
+/* / Tablet */
+@media screen and (min-width : 600px){
+    body {
+        background-color:  yellow;
+    }
+    .col-sm-6{
+        width: 50%;
+        float: left;
+    }
+    .col-lg-4{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-12{
+        width: 100%;
+        float: left;
+        border-radius: 20% 20% 30% 30%;
+    }
+    
+}
+/* / Dekstop */
+@media screen and (min-width : 992px){
+    body {
+        background-color: green;
+    }
+    .col {
+        width: 25%;
+        background-color: yellow;
+        float: left;
+        padding: 10px;
+    }
+    .fo{
+        float: left;
+        background-color: #59B4C3;
+        width: 33%;
+    }
+    .fa{
+        float: left;
+        background-color: #59B4C3;
+        width: 50%;
+        padding: 10px;
+    }
+    
 }
 .img-responsive {
     width: 100%;
@@ -17,20 +62,10 @@ body {
     background-color: #7F27FF;
 }
 .rounded{
-    border-radius: 20px;
+    border-radius: 50px;
 }
 .img-rounded{
     border-radius: 50% 50% 50% 50%;
-}
-.fo{
-    float: left;
-    background-color: #59B4C3;
-    width: 33%;
-}
-.fa{
-    float: left;
-    background-color: #59B4C3;
-    width: 33%;
 }
 .row::after{
     content: "";
